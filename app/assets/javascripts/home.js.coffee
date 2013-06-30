@@ -22,7 +22,7 @@ jQuery ->
       $(painting).attr('src', "/assets/#{new_image}.jpg")
   )
 
-  $('.exhibit_anchor a')
+  $('.exhibit_anchor a, .portfolio_anchor a')
     .attr('rel','gallery')
     .fancybox(
       fitToView: false
