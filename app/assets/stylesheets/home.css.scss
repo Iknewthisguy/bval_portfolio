@@ -2,11 +2,11 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-.painting_anchor {
+.portfolio_anchor, .exhibit_anchor {
   overflow: hidden;
   height: 205px;
 }
-.painting {
+.painting, .painting2 {
   min-width:100%;
   max-width: inherit;
   display: block;

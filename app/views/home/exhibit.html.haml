@@ -1,0 +1,5 @@
+- (1..16).to_a.in_groups_of(4) do |row|
+  .row
+    - row.each do |pic|
+      .span3.exhibit_anchor
+        = link_to image_tag("#{pic}.jpg", :class => 'painting'), "/assets/#{pic}.jpg"
